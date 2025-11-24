@@ -432,3 +432,61 @@ ul {
         gap: 2rem;
     }
 }
+
+/* Member Ticker */
+.member-ticker-container {
+    height: 150px;
+    /* Adjust height to show approx 5 items (30px each) */
+    overflow: hidden;
+    margin-bottom: 2rem;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-ticker-mask {
+    height: 100%;
+    width: 100%;
+    /* Fade out at top and bottom */
+    mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+}
+
+.member-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: scrollUp 20s linear infinite;
+    padding: 0;
+    margin: 0;
+}
+
+.member-list li {
+    padding: 5px 0;
+    color: var(--text-light);
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.9;
+    height: 30px;
+    /* Fixed height for calculation */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-list:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+        /* Move up by half the list height (since we duplicated items) */
+    }
+}
