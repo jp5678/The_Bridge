@@ -515,8 +515,8 @@ audio {
 
 /* Member Ticker */
 .member-ticker-container {
-    height: 150px;
-    /* Adjust height to show approx 5 items (30px each) */
+    height: 90px;
+    /* Adjust height to show approx 3 items (30px each) */
     overflow: hidden;
     margin-bottom: 2rem;
     position: relative;
