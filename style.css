@@ -156,6 +156,55 @@ ul {
     font-size: 1.1rem;
 }
 
+/* Member Image Grid */
+.member-image-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+.member-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.member-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-color);
+    transition: transform 0.3s ease;
+}
+
+.member-item:hover img {
+    transform: scale(1.1);
+}
+
+.member-name {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--white);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.member-item:hover .member-name {
+    opacity: 1;
+}
+
 .btn-gold {
     display: inline-block;
     padding: 12px 30px;
