@@ -100,7 +100,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: 150vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -569,4 +569,5 @@ audio {
         transform: translateY(-50%);
         /* Move up by half the list height (since we duplicated items) */
     }
+
 }
