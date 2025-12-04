@@ -393,7 +393,7 @@ ul {
 
 /* Song Section */
 .song-section {
-    background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.9)), url('assets/logo_mockup2.jpg') fixed center center/cover;
+    background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.9)), url('assets/logo_mockup.jpg') fixed center center/cover;
     text-align: center;
 }
 
@@ -683,4 +683,5 @@ audio {
         opacity: 1;
         transform: translateY(0);
     }
+
 }
