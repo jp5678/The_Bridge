@@ -602,7 +602,7 @@ audio {
     border: 2px solid var(--accent-color);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    animation: popupFadeIn 0.4s ease-out;
+    /* animation: popupFadeIn 0.4s ease-out; */
 }
 
 .popup-header {
@@ -678,6 +678,7 @@ audio {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
