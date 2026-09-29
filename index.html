@@ -11,7 +11,6 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Outfit:wght@300;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 
 <body>
@@ -21,7 +20,6 @@
         <div class="container">
             <a href="#" class="logo">THE BRIDGE</a>
             <ul class="nav-links">
-                <li><a href="#calendar">Calendar</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#rules">Rules</a></li>
                 <li><a href="#culture">Culture</a></li>
@@ -153,48 +151,6 @@
             <a href="https://jp5678.github.io/settle-up/" class="btn-gold" style="margin-top: 15px;">오늘의 더치 페이</a>
         </div>
     </header>
-
-    <!-- Calendar Section -->
-    <section id="calendar" class="section calendar-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Event Calendar</h2>
-                <p class="section-subtitle">더 브릿지(The Bridge) 행사일정</p>
-                <div class="section-line"></div>
-            </div>
-
-            <div class="calendar-wrap">
-                <div class="calendar-box">
-                    <div class="calendar-nav">
-                        <button type="button" id="calPrev" class="cal-nav-btn" aria-label="이전 달">&#10094;</button>
-                        <h3 id="calTitle"></h3>
-                        <button type="button" id="calNext" class="cal-nav-btn" aria-label="다음 달">&#10095;</button>
-                    </div>
-                    <div class="calendar-weekdays">
-                        <span class="sun">일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span class="sat">토</span>
-                    </div>
-                    <div id="calGrid" class="calendar-grid"></div>
-                    <button type="button" id="calToday" class="cal-today-btn">오늘</button>
-                </div>
-
-                <div class="calendar-side">
-                    <h3 id="calSelectedDate" class="cal-selected-date"></h3>
-                    <ul id="calEventList" class="cal-event-list"></ul>
-
-                    <form id="calForm" class="cal-form">
-                        <h4>일정 등록</h4>
-                        <label>날짜<input type="date" id="evDate" required></label>
-                        <label>시간<input type="time" id="evTime"></label>
-                        <label>행사명<input type="text" id="evTitle" maxlength="100" placeholder="예: 3쿠션 디비전리그" required></label>
-                        <label>장소<input type="text" id="evPlace" maxlength="100" placeholder="예: 국제당구장"></label>
-                        <label>메모<textarea id="evNote" rows="2" maxlength="300" placeholder="참가자, 준비물 등"></textarea></label>
-                        <button type="submit" class="btn-gold cal-submit">등록</button>
-                    </form>
-                    <p id="calNotice" class="cal-notice"></p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- About Section -->
     <section id="about" class="section about-section">
