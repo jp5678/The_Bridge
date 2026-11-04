@@ -768,7 +768,7 @@ audio {
 
 .honorary-name {
     font-family: var(--font-sans);
-    color: var(--text-light);
+    color: var(--accent-color);
     font-weight: 300;
     font-size: 1.1rem;
 }
