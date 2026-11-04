@@ -800,3 +800,36 @@ audio {
         font-size: 0.75rem;
     }
 }
+
+/* Hero Action Buttons (one row) */
+.hero-actions {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.hero-actions .btn-gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .hero-actions {
+        gap: 8px;
+    }
+
+    .hero-actions .btn-gold {
+        flex: 1 1 0;
+        padding: 10px 6px;
+        font-size: 0.8rem;
+        letter-spacing: 0;
+        white-space: normal;
+        word-break: keep-all;
+        text-align: center;
+    }
+}
