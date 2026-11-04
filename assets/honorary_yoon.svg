@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="윤OO 우리당구클럽(광주) 사장 캐릭터">
+  <!-- 당구클럽 사장: 넉넉한 미소, 카라 셔츠, 손에 든 당구공 -->
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="#f3ede1"/>
+    <circle cx="100" cy="100" r="78" fill="#efd9c3"/>
+    <!-- 카라 셔츠 (그린) -->
+    <path d="M28 200 C32 160 58 144 100 142 C142 144 168 160 172 200 Z" fill="#1f6b4a" stroke="#123f2b" stroke-width="2"/>
+    <!-- 카라 -->
+    <path d="M84 144 L100 162 L116 144 L122 156 L100 170 L78 156 Z" fill="#ffffff" stroke="#123f2b" stroke-width="1.5"/>
+    <circle cx="100" cy="178" r="2" fill="#ffffff"/>
+    <circle cx="100" cy="190" r="2" fill="#ffffff"/>
+    <!-- 클럽 로고 자수 -->
+    <circle cx="136" cy="166" r="6" fill="none" stroke="#d4af37" stroke-width="1.8"/>
+    <!-- 목 -->
+    <rect x="90" y="124" width="20" height="22" rx="6" fill="#e9bf96"/>
+    <!-- 얼굴 (둥근형) -->
+    <ellipse cx="100" cy="98" rx="34" ry="35" fill="#f2cda6" stroke="#3b2b20" stroke-width="2"/>
+    <ellipse cx="66" cy="100" rx="5" ry="8" fill="#e9bf96" stroke="#3b2b20" stroke-width="1.5"/>
+    <ellipse cx="134" cy="100" rx="5" ry="8" fill="#e9bf96" stroke="#3b2b20" stroke-width="1.5"/>
+    <!-- 넘긴 머리 -->
+    <path d="M66 92 C62 60 88 54 104 56 C126 58 140 70 134 92 C126 74 108 68 92 72 C82 74 72 80 66 92 Z" fill="#3a2c24" stroke="#1c140f" stroke-width="1.5"/>
+    <path d="M90 64 Q104 60 120 68" stroke="#5a4538" stroke-width="1.5" fill="none"/>
+    <!-- 눈썹 -->
+    <path d="M80 86 Q88 83 95 86 M105 86 Q112 83 120 86" stroke="#3a2c24" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    <!-- 웃는 눈 -->
+    <path d="M82 98 Q88 92 94 98 M106 98 Q112 92 118 98" stroke="#2b2b2b" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <!-- 볼 -->
+    <circle cx="80" cy="110" r="5" fill="#ec9f8a" opacity="0.5"/>
+    <circle cx="120" cy="110" r="5" fill="#ec9f8a" opacity="0.5"/>
+    <!-- 코, 큰 미소 -->
+    <path d="M100 101 Q96 109 101 111" stroke="#8a5a3c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M86 116 Q100 132 114 116 Z" fill="#8c3b2c" stroke="#5e2219" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M90 118 Q100 122 110 118" stroke="#ffffff" stroke-width="2.2" fill="none"/>
+    <!-- 손과 빨간 당구공 -->
+    <ellipse cx="62" cy="168" rx="11" ry="9" fill="#f2cda6" stroke="#3b2b20" stroke-width="1.5"/>
+    <circle cx="62" cy="152" r="12" fill="#c8262c" stroke="#7a1418" stroke-width="1.5"/>
+    <circle cx="58" cy="148" r="3.2" fill="#ffffff" opacity="0.75"/>
+  </g>
+</svg>
