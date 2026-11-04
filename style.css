@@ -721,3 +721,79 @@ audio {
         height: 500px;
     }
 }
+
+/* Honorary Members */
+.honorary-members {
+    margin: -1.5rem auto 2.5rem auto;
+    max-width: 600px;
+}
+
+.honorary-label {
+    font-family: var(--font-serif);
+    color: var(--accent-color);
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.honorary-grid {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.honorary-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.honorary-item img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--accent-color);
+    box-shadow: 0 0 16px rgba(212, 175, 55, 0.35);
+    margin-bottom: 0.6rem;
+    transition: transform 0.3s ease;
+}
+
+.honorary-item:hover img {
+    transform: scale(1.06);
+}
+
+.honorary-name {
+    color: var(--text-light);
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.honorary-title {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    line-height: 1.4;
+    word-break: keep-all;
+}
+
+@media (max-width: 480px) {
+    .honorary-grid {
+        gap: 12px;
+    }
+
+    .honorary-item {
+        width: 100px;
+    }
+
+    .honorary-item img {
+        width: 76px;
+        height: 76px;
+    }
+
+    .honorary-title {
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="박OO 광주광역시당구연맹 부회장 캐릭터">
+  <!-- 연맹 부회장: 은발, 안경, 정장과 넥타이, 연맹 배지 -->
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="#f3ede1"/>
+    <circle cx="100" cy="100" r="78" fill="#e6dcc6"/>
+    <!-- 몸통: 네이비 정장 -->
+    <path d="M30 200 C34 160 58 146 100 144 C142 146 166 160 170 200 Z" fill="#1d2f52" stroke="#0f1a30" stroke-width="2"/>
+    <!-- 셔츠 -->
+    <path d="M84 146 L100 176 L116 146 Z" fill="#ffffff" stroke="#0f1a30" stroke-width="1.5"/>
+    <!-- 넥타이 -->
+    <path d="M96 150 L104 150 L107 182 L100 190 L93 182 Z" fill="#a8322d" stroke="#5e1a17" stroke-width="1.2"/>
+    <!-- 라펠 -->
+    <path d="M84 146 L94 178 L76 160 Z M116 146 L106 178 L124 160 Z" fill="#162643" stroke="#0f1a30" stroke-width="1.2"/>
+    <!-- 연맹 배지 -->
+    <circle cx="134" cy="170" r="6" fill="#d4af37" stroke="#8a6d16" stroke-width="1.2"/>
+    <!-- 목 -->
+    <rect x="90" y="124" width="20" height="24" rx="6" fill="#efc9a4"/>
+    <!-- 얼굴 -->
+    <ellipse cx="100" cy="98" rx="32" ry="36" fill="#f4d2b0" stroke="#3b2b20" stroke-width="2"/>
+    <!-- 귀 -->
+    <ellipse cx="68" cy="100" rx="5" ry="8" fill="#efc9a4" stroke="#3b2b20" stroke-width="1.5"/>
+    <ellipse cx="132" cy="100" rx="5" ry="8" fill="#efc9a4" stroke="#3b2b20" stroke-width="1.5"/>
+    <!-- 은발 -->
+    <path d="M67 92 C64 62 86 56 100 56 C118 56 138 64 133 92 C128 78 116 72 100 72 C86 72 74 78 67 92 Z" fill="#c9cbd0" stroke="#6d7078" stroke-width="2"/>
+    <!-- 눈썹 -->
+    <path d="M80 86 Q88 82 95 86 M105 86 Q112 82 120 86" stroke="#6d7078" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- 안경 -->
+    <circle cx="87" cy="97" r="9" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+    <circle cx="113" cy="97" r="9" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+    <path d="M96 97 L104 97" stroke="#2b2b2b" stroke-width="2"/>
+    <!-- 눈 -->
+    <circle cx="87" cy="98" r="2.4" fill="#2b2b2b"/>
+    <circle cx="113" cy="98" r="2.4" fill="#2b2b2b"/>
+    <!-- 코, 미소 -->
+    <path d="M100 102 Q97 110 101 112" stroke="#8a5a3c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M89 118 Q100 126 111 118" stroke="#7a3b2a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- 주름 -->
+    <path d="M76 110 Q78 114 80 115 M124 110 Q122 114 120 115" stroke="#c49a78" stroke-width="1.2" fill="none"/>
+  </g>
+</svg>
