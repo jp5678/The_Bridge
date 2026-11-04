@@ -100,7 +100,8 @@ ul {
 
 /* Hero Section */
 .hero {
-    height: 120vh;
+    min-height: 120vh;
+    padding: 120px 0 80px;
     display: flex;
     align-items: center;
     justify-content: center;
