@@ -729,7 +729,7 @@ audio {
 }
 
 .honorary-label {
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     color: var(--accent-color);
     font-size: 1.5rem;
     font-weight: 700;
