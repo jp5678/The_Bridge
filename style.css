@@ -811,6 +811,10 @@ audio {
     gap: 12px;
 }
 
+.hero-actions .label-short {
+    display: none;
+}
+
 .hero-actions .btn-gold {
     display: flex;
     align-items: center;
@@ -819,7 +823,7 @@ audio {
     white-space: nowrap;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .hero-actions {
         gap: 8px;
     }
@@ -829,8 +833,15 @@ audio {
         padding: 10px 6px;
         font-size: 0.8rem;
         letter-spacing: 0;
-        white-space: normal;
-        word-break: keep-all;
+        white-space: nowrap;
         text-align: center;
+    }
+
+    .hero-actions .label-full {
+        display: none;
+    }
+
+    .hero-actions .label-short {
+        display: inline;
     }
 }
