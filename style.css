@@ -340,6 +340,10 @@ ul {
     color: var(--text-light);
 }
 
+.rule-subtitle {
+    color: var(--accent-color);
+}
+
 .rule-body p,
 .rule-body ul {
     color: var(--text-dim);
