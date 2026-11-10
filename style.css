@@ -337,11 +337,8 @@ ul {
 
 .rule-header h3 {
     font-size: 1.3rem;
-    color: var(--text-light);
-}
-
-.rule-subtitle {
     color: var(--accent-color);
+    opacity: 0.5;
 }
 
 .rule-body p,
